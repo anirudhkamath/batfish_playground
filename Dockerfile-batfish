@@ -1,0 +1,8 @@
+FROM batfish/allinone
+
+RUN mkdir /opt/app/
+COPY regions/ /opt/app/
+
+EXPOSE 8888
+EXPOSE 9997
+EXPOSE 9998
